@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: zxc666
+
+app:
+  cors:
+    allowed-origins: http://localhost:5173, http://localhost:8080, http://127.0.0.1:5173
+  adminPassword: 8x2EcfR74<gVhY
+  jwt:
+    secret: v9y$B&E)H@MbQeThWmZq4t7w!z%C*F-JaNdRfUjXn2r5u8x/A?D(G+KbPeShVkYp
+    expiration:
+      minutes: 2880
